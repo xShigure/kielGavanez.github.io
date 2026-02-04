@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        *{  
+            border: 1px solid red;
             padding: 0;
             margin: 0;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
         .container{
+            margin-block: 1px;
            display: flex;
            height: 100%;
            align-items: center;
@@ -20,16 +25,27 @@
             display: flex;
             
         }
+        header{
+            height: 100px;
+        }
+        body{
+            height: calc(100vh - 100px);
+        }
+        footer{
+            height: 50px;
+        }
     </style>
 </head>
 <header>this is header</header>
 <body>
-    this is body
-    <div class="container">
-        <div class="sample">sample</div>
-        <div class="sample">sample</div>
-        <div class="sample">sample</div>
+    this is bodys
+    <div>
+        <div class="sample">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, numquam! Quam sunt similique earum, natus, officia libero nobis hic, eos possimus consequatur quod veniam cumque consectetur corrupti sed veritatis totam.</div>
+        <div class="sample">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, numquam! Quam sunt similique earum, natus, officia libero nobis hic, eos possimus consequatur quod veniam cumque consectetur corrupti sed veritatis totam.</div>
+        <div class="sample">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, numquam! Quam sunt similique earum, natus, officia libero nobis hic, eos possimus consequatur quod veniam cumque consectetur corrupti sed veritatis totam.</div>
+        <div class="sample">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, numquam! Quam sunt similique earum, natus, officia libero nobis hic, eos possimus consequatur quod veniam cumque consectetur corrupti sed veritatis totam.</div>
     </div>
 
 </body>
+<footer>this is footer</footer>
 </html>
